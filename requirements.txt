@@ -1,0 +1,12 @@
+Django==3.2
+Pillow
+six
+python-dotenv
+djangorestframework
+requests
+celery
+PyJWT
+django-cors-headers
+whitenoise
+djangorestframework-simplejwt
+psycopg2-binary

@@ -1,3 +1,11 @@
 db.sqlite3
 ../database.txt
 .env
+../.idea
+users/static
+package-lock.json
+package.json
+static
+staticfiles
+node_modules
+mainApp
