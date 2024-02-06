@@ -8,7 +8,7 @@ from rest_framework.exceptions import AuthenticationFailed
 
 from .tokens import account_activation_token
 from .models import User
-from wellcards.settings import SECRET_KEY
+from wellcards.settings.base import SECRET_KEY
 
 
 def edit_object(obj: object, **kwargs) -> None:

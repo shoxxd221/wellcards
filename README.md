@@ -14,4 +14,5 @@ py manage.py migrate
 
 celery -A wellcards worker -l info -B
 
-py manage.py runserver
+python3 manage.py runserver --settings=wellcards.settings.dev
+python3 manage.py runserver --settings=wellcards.settings.prod

@@ -1,9 +1,8 @@
 import requests
 
-from .models import Card
-from .models import ApiToken
+from .models import Card, ApiToken
 from wellcards.celery import app
-from wellcards.settings import CLIENT_ID, API_KEY
+from wellcards.settings.base import CLIENT_ID, API_KEY
 
 domain = 'https://api.spenxy.com'
 
